@@ -1,0 +1,19 @@
+{
+ "mandate": {
+  "v": "x402-mandate/1",
+  "issuer": "5DSXrws7fCfoMJH6LNzXU8uNsuWdsWymry5m9za3rBw",
+  "subject": "0xccc4565063067d8feb976969760f653675391937",
+  "asset": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+  "cap": "1000000",
+  "perPayment": "250000",
+  "recipients": [
+   "0x259e7049ad18bffbd120ea9523439654a4add5e5"
+  ],
+  "accountant": "_5lWuYiW_1RF_hvlBn_9kLwomPZs0ZF7fbWkg7oV06Y",
+  "purpose": "CEC pair 0001: x402 authority mandate with an AXES correlation record",
+  "notAfter": "2027-01-01T00:00:00Z",
+  "nonce": "axes-cec-pair-1-mandate-001"
+ },
+ "alg": "Ed25519",
+ "sig": "NUhFbaE6o1PoE1Ous48oXWbeR9bypKRmPZBrptW3bNXlheURSx-iR_VDV4z_nSFgViHKyCU9mIV9e_Cw4XHPDQ"
+}

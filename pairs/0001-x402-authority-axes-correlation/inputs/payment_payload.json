@@ -1,0 +1,49 @@
+{
+ "x402Version": 2,
+ "resource": {
+  "url": "https://seller.example/premium-data",
+  "description": "Premium data",
+  "mimeType": "application/json"
+ },
+ "accepted": {
+  "scheme": "exact",
+  "network": "eip155:84532",
+  "amount": "10000",
+  "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+  "payTo": "0x259e7049AD18bffBD120Ea9523439654A4ADd5e5",
+  "maxTimeoutSeconds": 120,
+  "extra": {
+   "name": "USDC",
+   "version": "2"
+  }
+ },
+ "payload": {
+  "signature": "0x01dcdbaf1368e57ac515d3244c8fd7cc592fd9bc7f216f9b59f1dac08e527d512cfd1e043f76a783c33115d285dbdc75622d4b6ce6ecc66e732b6593451f2aef1c",
+  "authorization": {
+   "from": "0xCcc4565063067d8feb976969760f653675391937",
+   "to": "0x259e7049AD18bffBD120Ea9523439654A4ADd5e5",
+   "value": "10000",
+   "validAfter": "1792800000",
+   "validBefore": "1792800600",
+   "nonce": "0x39f36a36c671f2de5afa6cb60ad5028d128ba0a88c6bfde524553430c2b53e30"
+  }
+ },
+ "extensions": {
+  "evidence": {
+   "info": {
+    "offered": [
+     "axes:x402_correlation@1"
+    ],
+    "required": false,
+    "correlationSalt": "9ddbc79f4ddc7f4d60ac510758453b64ae75076a04eb1f03781d5423de1acb74",
+    "chosen": "axes:x402_correlation@1",
+    "clientSalt": "cae41b4df23c6c86bca0d61be75f8724ae773adf98d2089d38d382f32342bfd9"
+   }
+  },
+  "payment-identifier": {
+   "info": {
+    "id": "pay-001"
+   }
+  }
+ }
+}

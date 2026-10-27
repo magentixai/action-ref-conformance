@@ -1,0 +1,33 @@
+{
+ "x402Version": 2,
+ "resource": {
+  "url": "https://seller.example/premium-data",
+  "description": "Premium data",
+  "mimeType": "application/json"
+ },
+ "accepts": [
+  {
+   "scheme": "exact",
+   "network": "eip155:84532",
+   "amount": "10000",
+   "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+   "payTo": "0x259e7049AD18bffBD120Ea9523439654A4ADd5e5",
+   "maxTimeoutSeconds": 120,
+   "extra": {
+    "name": "USDC",
+    "version": "2"
+   }
+  }
+ ],
+ "extensions": {
+  "evidence": {
+   "info": {
+    "offered": [
+     "axes:x402_correlation@1"
+    ],
+    "required": false,
+    "correlationSalt": "9ddbc79f4ddc7f4d60ac510758453b64ae75076a04eb1f03781d5423de1acb74"
+   }
+  }
+ }
+}

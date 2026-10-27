@@ -1,0 +1,38 @@
+{
+ "correlation_recipe_ref": "axes:x402_correlation@1",
+ "correlation_hash": "392867a492639de2d3b94b3e8f867bbb52f20f63b8a201fd5502db8054d028e4",
+ "correlation_hash_algorithm": "SHA-256",
+ "mandate_hash": "070a07065eddc986423f84e2d8b1cd6863a3e36a7f80fa1e5036babd6cde3456",
+ "mandate_hash_algorithm": "SHA-256",
+ "payment_identifier_id": "pay-001",
+ "nonce_derivation_type": "x402_mandate_binding",
+ "correlation_core": {
+  "x402_version": 2,
+  "payment_scheme": "exact",
+  "payment_flow_type": "authorization",
+  "network_id": "eip155:84532",
+  "asset_id": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+  "total_amount_value": "10000",
+  "payment_legs": [
+   {
+    "pay_to_id": "0x259e7049ad18bffbd120ea9523439654a4add5e5",
+    "leg_amount_value": "10000"
+   }
+  ],
+  "payer_id": "0xccc4565063067d8feb976969760f653675391937",
+  "resource_ref": "https://seller.example/premium-data",
+  "authorization_nonce_id": "0x39f36a36c671f2de5afa6cb60ad5028d128ba0a88c6bfde524553430c2b53e30",
+  "authorization_expires_at": "2026-10-24T00:10:00.000Z",
+  "server_salt_text": "9ddbc79f4ddc7f4d60ac510758453b64ae75076a04eb1f03781d5423de1acb74",
+  "client_salt_text": "cae41b4df23c6c86bca0d61be75f8724ae773adf98d2089d38d382f32342bfd9",
+  "lanes": [
+   {
+    "lane_type": "evidence",
+    "chosen_profile_ref": "axes:x402_correlation@1",
+    "lane_information_hash": "23ec62a81b08355a40075530853877479f913a842a375664a6a788173d86daae"
+   }
+  ],
+  "hash_algorithm": "SHA-256",
+  "payment_identifier_id": "pay-001"
+ }
+}
